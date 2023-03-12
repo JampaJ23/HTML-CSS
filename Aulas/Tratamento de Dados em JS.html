@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tratamento de Dados em JS</title>
+        <style>
+            /* Como comentar em CSS */
+
+            body {
+                background-color: rgba(84, 101, 174, 0.912);
+                color: white;
+                font: normal 13pt Arial;
+            }
+            h1 {
+                color: rgba(255, 255, 0, 0.833);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Como comentar em HTML -->
+
+        <h1>Faça sua ornanização financeira de forma simples e efetiva.</h1>
+        <p>Desenvolvido por: JC_Jampa</p>
+        <p>Powered by: Aula em Video</p>
+
+        <script>
+            // Como comentar em JC
+
+            window.alert("Vamos começar a entender dados em JS");
+            var n1 = Number(window.prompt("Salário:"));
+            // Number.parseFloat / parse.Int
+            var n2 = Number(window.prompt("Aluguel: "));
+            var n3 = Number(window.prompt("Luz/Gas/Internet: "));
+            var n4 = Number(window.prompt("Academia: "));
+
+            // (number + number) = ADIÇÃO/SUB
+            // (string + string) = CONCATENAÇÃO
+
+            var r = n2 + n3 + n4;
+            var t = n1 - r;
+            window.alert(`Seu gasto mensal é de: R$ ${r}`);
+            //("Seu gasto mensal é de: " + String(r));
+            window.alert(`Saldo positivo: R$ ${t}`);
+            //("Saldo positivo: " + String(t));
+            // String (VAR)) = sempre p/ numeros quebrados
+        </script>
+    </body>
+</html>
